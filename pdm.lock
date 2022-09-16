@@ -1,0 +1,28 @@
+[[package]]
+name = "beautifulsoup4"
+version = "4.11.1"
+requires_python = ">=3.6.0"
+summary = "Screen-scraping library"
+dependencies = [
+    "soupsieve>1.2",
+]
+
+[[package]]
+name = "soupsieve"
+version = "2.3.2.post1"
+requires_python = ">=3.6"
+summary = "A modern CSS selector implementation for Beautiful Soup."
+
+[metadata]
+lock_version = "4.0"
+content_hash = "sha256:73875bcb6fc2110e44d9538cadbe88051ad23b9a1fe19830564f4f44c0d57fe2"
+
+[metadata.files]
+"beautifulsoup4 4.11.1" = [
+    {url = "https://files.pythonhosted.org/packages/9c/d8/909c4089dbe4ade9f9705f143c9f13f065049a9d5e7d34c828aefdd0a97c/beautifulsoup4-4.11.1-py3-none-any.whl", hash = "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"},
+    {url = "https://files.pythonhosted.org/packages/e8/b0/cd2b968000577ec5ce6c741a54d846dfa402372369b8b6861720aa9ecea7/beautifulsoup4-4.11.1.tar.gz", hash = "sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693"},
+]
+"soupsieve 2.3.2.post1" = [
+    {url = "https://files.pythonhosted.org/packages/16/e3/4ad79882b92617e3a4a0df1960d6bce08edfb637737ac5c3f3ba29022e25/soupsieve-2.3.2.post1-py3-none-any.whl", hash = "sha256:3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759"},
+    {url = "https://files.pythonhosted.org/packages/f3/03/bac179d539362319b4779a00764e95f7542f4920084163db6b0fd4742d38/soupsieve-2.3.2.post1.tar.gz", hash = "sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d"},
+]
